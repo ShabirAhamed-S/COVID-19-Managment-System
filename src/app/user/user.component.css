@@ -1,0 +1,16 @@
+.user {
+  background-color: #eff6ff;
+  padding: 100px 100px;
+}
+
+.login {
+  background-color: #ffffff;
+  padding: 20px 30px;
+}
+
+@media screen and (max-width:400px) {
+  .user {
+      background-color: #eff6ff;
+      padding: 140px 30px;
+  }
+}

@@ -1,0 +1,30 @@
+<form style="padding-top: 20px;" id="show_user">
+  <div class="show_user">
+  <label>ID</label>
+  <input class="form-control" id="id" required [(ngModel)]="model.id" name="id">
+  <label>Name</label>
+  <input class="form-control" id="name" required [(ngModel)]="model.name" 
+  name="name">
+  <label>Email</label>
+<input class="form-control" id="email" required [(ngModel)]="model.email" name="email">
+<label>Phone</label>
+<input class="form-control" id="phone" required [(ngModel)]="model.phone" name="phone">
+<label>Gender</label>
+<input class="form-control" id="gender" required [(ngModel)]="model.gender" name="gender">
+<label>Address</label>
+<input class="form-control" id="address" required [(ngModel)]="model.address" name="address">
+<label>City</label>
+<input class="form-control" id="city" required [(ngModel)]="model.city" name="city">
+<label>State</label>
+<input class="form-control" id="state" required [(ngModel)]="model.state" name="state">
+<label for="status" class="text-dark">Status</label>
+    <div class="radio inline">
+      <input type="radio" id="radio-4" [(ngModel)]="model.status"  name="Positive" value="Positive">
+      <label for="radio-4" class="radio-label">Positive</label>
+    </div>
+    <div class="radio inline">
+      <input type="radio" id="radio-5" [(ngModel)]="model.status" name="Negative" value="Negative">
+      <label for="radio-5" class="radio-label">Negative</label>
+    </div>
+</div>
+</form>
